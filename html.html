@@ -1,0 +1,133 @@
+<!-- You can beautify the code hierarchy through Alt + Shift + F on VS Code. There are some extensions to do this too. -->
+
+<!--Boilerplate: check https://docs.emmet.io/cheat-sheet/ to see emmet shortcuts. For this boilerplate below, the shortcut is "!" -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta shows extra information for web (like search in Google). UTF-8 is used to set unicode characters envolving all characters code around the world including emouticons -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Study Notes</title>
+  </head>
+
+  <body>
+    <table>
+      <tr>
+        <td><a href="index.html">Home</a></td>
+        <td><a href="css.html">CSS</a></td>
+      </tr>
+    </table>
+
+    <h1>Heading Level 1</h1>
+    <h2>Heading Level 2</h2>
+    <h3>Heading Level 3</h3>
+    <h4>Heading Level 4</h4>
+    <h5>Heading Level 5</h5>
+    <h6>Heading Level 6</h6>
+
+    <!-- Break Element - /> is usable to identify the void element -->
+    <br />
+    
+    <!-- Horizontal Rule - /> is usable to identify the void element -->
+    <hr />
+
+    <!-- We can change a tag element with attributes like size and shape on "hr" element-->
+    <hr size="3" noshade />
+    <!-- Italic <i> vs Emphasize <em>: Emphasize says to Web that text is important and Italic is just a design thing. -->
+    <p><i>This</i> is an <em>example.</em></p>
+    <!-- Bold <b> vs Strong <strong> Strong says to Web that text is important and Bold is just a design thing. -->
+    <p><b>This</b> is another <strong>example.</strong></p>
+
+    <hr />
+
+    <h2>Lists</h2>
+    <p>Unordered List</p>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+    <p>Ordered List</p>
+    <ol>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ol>
+    <p>Description List</p>
+    <dl>
+      <dt>Define a Term</dt>
+      <dd>Describe the Term</dd>
+      <dt>Coffee</dt>
+      <dd>Black hot drink</dd>
+    </dl>
+
+    <hr />
+
+    <h2>Image Element</h2>
+    <img src="coding.jpg" alt="Coding Picture" />
+    <hr />
+    <h2>Anchor Element</h2>
+    <!--Anchor tag _blank is used to open a new tab when you click on hlink. -->
+    <a target="_blank" href="test.html">Anchor test</a>
+
+    <hr />
+
+    <h2>Table Element</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Head - Row 1 Table Head Cell 1</th>
+          <th>Head - Row 1 Table Head Cell 2</th>
+        </tr>
+        <tr>
+          <th>Head - Row 2 Table Head Cell 1</th>
+          <th>Head - Row 2 Table Head Cell 2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Row 1: Table Data Cell 1</td>
+          <td>Row 1: Table Data Cell 2</td>
+        </tr>
+        <td>Row 2: Table Data Cell 3</td>
+        <td>Row 2: Table Data Cell 4</td>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Foot: Table Data Cell</td>
+        </tr>
+      </tfoot>
+    </table>
+    <!-- It is possible to make a nested tables-->
+
+    <hr />
+
+    <h2>Emouticons</h2>
+    <p>Emouticouns can be find through Win + . or Win + ; 😁</p>
+
+    <hr />
+
+    <h2>Form, Label and Input</h2>
+    <form
+      action="mailto:arthurbq5@gmail.com"
+      method="post"
+      enctype="text/plain"
+    >
+      <label for="">Name</label>
+      <input type="text" />
+      <br />
+      <br />
+      <input type="file" />
+      <br />
+      <br />
+      <input type="date" />
+      <br />
+      <br />
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+      <br />
+      <br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
